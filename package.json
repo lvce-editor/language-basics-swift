@@ -1,0 +1,28 @@
+{
+  "name": "builtin.language-basics-swift",
+  "version": "0.0.0-dev",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test-syntax-highlighting",
+    "dev": "node ./node_modules/@lvce-editor/server/bin/server.js ./test/cases --only-extension=."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@lvce-editor/package-extension": "^0.0.5",
+    "@lvce-editor/server": "^0.16.22",
+    "@lvce-editor/test-syntax-highlighting": "^0.2.1",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "test-tokenize": {
+    "skip": []
+  }
+}

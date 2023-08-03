@@ -1,0 +1,13 @@
+{
+  "id": "builtin.language-basics-swift",
+  "name": "Language Basics Swift",
+  "description": "Provides syntax highlighting and bracket matching in Swift files.",
+  "languages": [
+    {
+      "id": "swift",
+      "extensions": [".swift"],
+      "tokenize": "src/tokenizeSwift.js",
+      "configuration": "languageConfiguration.json"
+    }
+  ]
+}
