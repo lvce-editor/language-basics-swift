@@ -5,9 +5,12 @@
   "languages": [
     {
       "id": "swift",
-      "extensions": [".swift"],
+      "extensions": [
+        ".swift"
+      ],
       "tokenize": "src/tokenizeSwift.js",
       "configuration": "languageConfiguration.json"
     }
-  ]
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-swift"
 }
